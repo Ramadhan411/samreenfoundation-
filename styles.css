@@ -1,1 +1,8 @@
-body { font-family: 'Segoe UI', sans-serif; background: #f9f9f9; color: #333; }
+
+body { font-family: Arial, sans-serif; background: #f0f5f3; color: #333; margin: 0; padding: 1em; }
+header, footer { background: #fff; padding: 1em; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+nav { text-align: center; margin: 1em 0; }
+nav a { margin: 0 10px; text-decoration: none; color: #007b5e; }
+main { max-width: 700px; margin: auto; padding: 1em; background: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.05); }
+form input, form textarea { width: 100%; padding: 8px; margin: 0.5em 0; border: 1px solid #ccc; border-radius: 4px; }
+form button { background: #007b5e; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; }
