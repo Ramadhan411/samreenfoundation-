@@ -1,8 +1,48 @@
 
-body { font-family: Arial, sans-serif; background: #f0f5f3; color: #333; margin: 0; padding: 1em; }
-header, footer { background: #fff; padding: 1em; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
-nav { text-align: center; margin: 1em 0; }
-nav a { margin: 0 10px; text-decoration: none; color: #007b5e; }
-main { max-width: 700px; margin: auto; padding: 1em; background: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.05); }
-form input, form textarea { width: 100%; padding: 8px; margin: 0.5em 0; border: 1px solid #ccc; border-radius: 4px; }
-form button { background: #007b5e; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; }
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #fdfdfc;
+  color: #2c3e50;
+  transition: background 0.5s ease;
+}
+header {
+  background: white;
+  padding: 1em;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.logo {
+  max-height: 80px;
+  display: block;
+  margin: 0 auto 10px;
+}
+nav {
+  background: #f0f5f3;
+  padding: 0.5em;
+  text-align: center;
+}
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007b5e;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: #004d3a;
+}
+main {
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 1em;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.03);
+}
+footer {
+  text-align: center;
+  padding: 1em;
+  font-size: 0.9em;
+  background: #f4f4f4;
+}
